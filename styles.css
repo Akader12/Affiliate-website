@@ -1,0 +1,147 @@
+/* Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+header {
+    background-color: #333;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav ul li {
+    margin: 0 1em;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#home {
+    background: #3a3a3a;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+#home h1 {
+    font-size: 3rem;
+}
+#home p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+.btn {
+    padding: 10px 20px;
+    background-color: #f7c100;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #f59e00;
+}
+
+/* About Section */
+#about {
+    background-color: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+#about h2 {
+    margin-bottom: 20px;
+}
+.grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card h3 {
+    margin-top: 10px;
+}
+.card p {
+    font-size: 0.9rem;
+}
+
+/* Contact Form */
+#contact {
+    padding: 60px 0;
+    text-align: center;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #f7c100;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #f59e00;
+}
+
+/* Blog Section */
+#blog {
+    padding: 60px 0;
+    background-color: #fafafa;
+}
+.post {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.post h3 {
+    margin-bottom: 10px;
+}
+.post p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+.post a {
+    color: #f7c100;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
